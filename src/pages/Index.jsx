@@ -17,7 +17,7 @@ const Index = () => {
         .catch((error) => {
           toast({
             title: "Error accessing the camera",
-            description: error.message,
+            description: error.message.toString(),
             status: "error",
             duration: 9000,
             isClosable: true,
